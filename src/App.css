@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  color: white;
+  background-color: black;
+  font-family: "Inter";
+  font-style: normal;
+}
+
+#title {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  margin: 50px;
+  width: auto;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  height: auto;
+}
+
+.countP {
+  font-weight: 300;
+  font-size: 24px;
+  margin: 40px;
+  padding: 20px;
+  border-bottom: 2px solid white;
+  width: 300px;
+}
+
+#error {
+  color: red;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  margin: 50px;
+}
+
+.buttonClass {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 40px;
+  width: auto;
+}
+
+.btn {
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  cursor: pointer;
+  margin: 10px;
+  width: 226px;
+  height: 58px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 300;
+  overflow: hidden;
+}
+
+#button0 {
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+  width: 226px;
+  height: 58px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 300;
+  overflow: hidden;
+  margin: 10px;
+}
