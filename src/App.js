@@ -5,7 +5,7 @@ import Counter from "./components/Counter";
 function App() {
   let [num, setNum] = useState(1);
   let eror = "";
-  let dynamicButton = "";
+
   const inc = () => {
     setNum(num + 1);
   };
@@ -34,7 +34,6 @@ function App() {
           decrement={dec}
           Zeroo={zero}
           Errors={eror}
-          dynamic={dynamicButton}
         />
       </div>
     </>
