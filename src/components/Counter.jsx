@@ -1,4 +1,18 @@
 const Counter = (props) => {
+  const gotobtn = document.querySelector("#button0");
+
+  if (props.Number >= 10) {
+    gotobtn.style.display = "block";
+  }
+
+  if (props.Number == 0) {
+    gotobtn.style.display = "none";
+  }
+
+  if (props.Number >= 3 && props.Number <= 9) {
+    gotobtn.style.display = "none";
+  }
+
   return (
     <div className="counter">
       <br />
@@ -16,7 +30,7 @@ const Counter = (props) => {
         <button className="btn" onClick={props.increment}>
           Increment
         </button>
-        <div >
+        <div>
           <button id="button0" onClick={props.Zeroo}>
             Go Back to 0
           </button>
